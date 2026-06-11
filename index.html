@@ -1,57 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Group 16 – Cloud Computing</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<nav>
-  <a class="nav-logo" href="index.html">☁ <span>Group 16</span> · Cloud Computing</a>
-  <ul>
-    <li><a href="index.html" class="active">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
-<div class="hero">
-  <div class="hero-badge">Cloud Computing · Group 16 · 2026</div>
-  <h1>Welcome to <em>Group 16</em><br>Cloud Computing Project</h1>
-  <p>A collaborative project exploring virtualization, GitHub collaboration, and cloud-based web deployment — built for Cloud Computing Practical Lab 1.</p>
-  <div class="hero-btns">
-    <a href="about.html" class="btn btn-primary">Meet the Team</a>
-    <a href="contact.html" class="btn btn-outline">Contact Us</a>
-  </div>
-</div>
-<section>
-  <div class="container">
-    <div class="section-label">Project Overview</div>
-    <h2>About This Project</h2>
-    <p>For Cloud Computing Lab 1, Group 16 collaborated to design and deploy a multi-page static website using HTML, CSS, and JavaScript. The site is hosted on GitHub Pages, giving us hands-on experience with cloud-based deployment, version control, and team-based web development.</p>
-    <p>We also installed Oracle VM VirtualBox on our personal laptops to explore the fundamentals of virtualization — a core technology behind modern cloud computing infrastructure.</p>
-    <div class="cards">
-      <div class="card"><div class="card-icon">🌐</div><h3>Web Development</h3><p>Built with HTML5, CSS3 and JavaScript.</p></div>
-      <div class="card"><div class="card-icon">☁️</div><h3>Cloud Hosting</h3><p>Deployed live via GitHub Pages.</p></div>
-      <div class="card"><div class="card-icon">🖥️</div><h3>Virtualization</h3><p>Explored Oracle VM VirtualBox.</p></div>
-      <div class="card"><div class="card-icon">🤝</div><h3>Collaboration</h3><p>Shared GitHub repo with commits by all members.</p></div>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a class="nav-logo" href="index.html">☁️ <span>Group 16</span> · Cloud Computing</a>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="badge">Cloud Computing · Group 16 · 2026</div>
+    <h1>Welcome to <em>Group 16</em><br>Cloud Computing Project</h1>
+    <p>
+      A collaborative group project for Cloud Computing Practical Lab 1 — exploring
+      virtualization, GitHub collaboration, and static website deployment on the cloud.
+    </p>
+    <div class="hero-btns">
+      <a href="about.html" class="btn btn-primary">Meet the Team</a>
+      <a href="contact.html" class="btn btn-outline">Contact Us</a>
     </div>
   </div>
-</section>
-<section>
-  <div class="container">
-    <div class="section-label">Course Details</div>
-    <h2>Lab Information</h2>
-    <div class="cards">
-      <div class="card"><h3>📚 Course</h3><p>Cloud Computing</p></div>
-      <div class="card"><h3>👥 Group</h3><p>Group 16</p></div>
-      <div class="card"><h3>🏫 Lab</h3><p>Practical Lab 1</p></div>
-      <div class="card"><h3>📅 Deadline</h3><p>11th June, 2026</p></div>
+
+  <!-- PROJECT DESCRIPTION -->
+  <section>
+    <div class="container">
+      <div class="lbl">Project Description</div>
+      <h2>About This Project</h2>
+      <p>
+        This website was built by <strong>Group 16</strong> as part of the
+        <strong>Cloud Computing Practical Lab 1</strong> pre-lab assignment at the university.
+        Our group of four students worked together to design and deploy a multi-page static
+        website using HTML, CSS, and JavaScript.
+      </p>
+      <p>
+        The site is hosted on <strong>GitHub Pages</strong> — giving us real, hands-on
+        experience with cloud-based web deployment, version control using Git, and team
+        collaboration through a shared GitHub repository.
+      </p>
+      <p>
+        As part of Part 1 of the lab, every group member also installed
+        <strong>Oracle VM VirtualBox</strong> on their personal laptops to understand
+        the fundamentals of virtualization — the core technology that powers modern
+        cloud computing infrastructure.
+      </p>
+
+      <!-- PROJECT IMAGE -->
+      <div class="img-wrap">
+        <img
+          src="images/image.jpg"
+          alt="Cloud Computing illustration for Group 16 project"
+          onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><span class=\'cloud-icon\'>☁️</span><p>Group 16 — Cloud Computing Lab 1</p><small>Add your image to the images/ folder</small></div>'"
+        />
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>Built with HTML5, CSS3, and JavaScript following modern best practices.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">☁️</div>
+          <h3>Cloud Deployment</h3>
+          <p>Deployed live on GitHub Pages — a free, cloud-based static hosting platform.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🤝</div>
+          <h3>Team Collaboration</h3>
+          <p>All four members contributed commits and content via a shared GitHub repository.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🖥️</div>
+          <h3>Virtualization</h3>
+          <p>Each member installed Oracle VM VirtualBox to explore VM-based cloud infrastructure.</p>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
-<footer>
-  <p>© 2026 Group 16 · Cloud Computing Practical Lab 1 · <a href="https://github.com" target="_blank">GitHub Repository</a></p>
-</footer>
+  </section>
+
+  <!-- COURSE INFO -->
+  <section class="alt">
+    <div class="container">
+      <div class="lbl">Course Details</div>
+      <h2>Lab Information</h2>
+      <div class="cards">
+        <div class="card"><h3>📚 Course Title</h3><p>Cloud Computing</p></div>
+        <div class="card"><h3>👥 Group</h3><p>Group 16</p></div>
+        <div class="card"><h3>🏫 Lab</h3><p>Practical Lab 1 — Virtualization &amp; Static Website Deployment</p></div>
+        <div class="card"><h3>🚀 Platform</h3><p>GitHub Pages — Cloud-based static hosting</p></div>
+        <div class="card"><h3>📅 Deadline</h3><p>11th June, 2026</p></div>
+        <div class="card"><h3>🗂️ Repository</h3><p>cloud-lab-group-project</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Group 16 &nbsp;·&nbsp; Cloud Computing Practical Lab 1 &nbsp;·&nbsp;
+      <a href="https://github.com" target="_blank">GitHub Repository</a>
+    </p>
+  </footer>
+
 </body>
 </html>
