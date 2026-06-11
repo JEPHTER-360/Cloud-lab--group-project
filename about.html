@@ -1,78 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Group 16 – About</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Group 16 – About Us</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<nav>
-  <a class="nav-logo" href="index.html">☁ <span>Group 16</span> · Cloud Computing</a>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html" class="active">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
-<div class="hero">
-  <div class="hero-badge">Who We Are</div>
-  <h1>About <em>Group 16</em></h1>
-  <p>Four computer science students collaborating on Cloud Computing Practical Lab 1.</p>
-</div>
-<section>
-  <div class="container">
-    <div class="section-label">Group Identity</div>
-    <h2>Group 16 — Cloud Computing</h2>
-    <p>We are Group 16, a team of four students enrolled in the Cloud Computing course. Our goal for Lab 1 was to demonstrate practical knowledge of static website deployment, GitHub collaboration, and virtualization using Oracle VM VirtualBox.</p>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a class="nav-logo" href="index.html">☁️ <span>Group 16</span> · Cloud Computing</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="badge">About Us</div>
+    <h1>Meet <em>Group 16</em></h1>
+    <p>Four computer science students collaborating on Cloud Computing Practical Lab 1.</p>
   </div>
-</section>
-<section>
-  <div class="container">
-    <div class="section-label">The Team</div>
-    <h2>All Group Members</h2>
-    <div class="team-grid">
-      <div class="member">
-        <div class="member-avatar">SB</div>
-        <h3>Samuel Baleh Tetteh Accam</h3>
-        <span class="role-badge">Member</span>
-        <p style="font-size:0.78rem;margin-top:0.4rem;color:var(--muted)">ID: 2425404587</p>
-      </div>
-      <div class="member">
-        <div class="member-avatar">JA</div>
-        <h3>Jephter Alamwine</h3>
-        <span class="role-badge">Member</span>
-        <p style="font-size:0.78rem;margin-top:0.4rem;color:var(--muted)">ID: 2425400293</p>
-      </div>
-      <div class="member">
-        <div class="member-avatar">AB</div>
-        <h3>Abdul Hassan Basit</h3>
-        <span class="role-badge">Member</span>
-        <p style="font-size:0.78rem;margin-top:0.4rem;color:var(--muted)">ID: 2425402315</p>
-      </div>
-      <div class="member">
-        <div class="member-avatar">KA</div>
-        <h3>Kwabena Adomako Boadu</h3>
-        <span class="role-badge">Member</span>
-        <p style="font-size:0.78rem;margin-top:0.4rem;color:var(--muted)">ID: 2425402087</p>
+
+  <!-- GROUP INFO -->
+  <section>
+    <div class="container">
+      <div class="lbl">Group Identity</div>
+      <h2>Group 16 — Cloud Computing</h2>
+      <p>
+        We are <strong>Group 16</strong>, a team of four university students enrolled in the
+        <strong>Cloud Computing</strong> course. For Practical Lab 1, our group collaborated
+        to build and deploy a fully functional static website using HTML, CSS, and JavaScript,
+        hosted on GitHub Pages.
+      </p>
+      <p>
+        Every member of our group contributed to the project — from writing HTML and CSS to
+        uploading files, making commits, and helping manage the shared GitHub repository.
+        We also each completed the individual task of installing Oracle VM VirtualBox to
+        gain hands-on experience with virtualization technology.
+      </p>
+    </div>
+  </section>
+
+  <!-- TEAM MEMBERS -->
+  <section class="alt">
+    <div class="container">
+      <div class="lbl">The Team</div>
+      <h2>All Group Members</h2>
+
+      <div class="team-grid">
+
+        <div class="member">
+          <div class="avatar">SB</div>
+          <h3>Samuel Baleh Tetteh Accam</h3>
+          <span class="role-badge">Group Leader</span>
+          <div class="student-id">ID: 2425404587</div>
+        </div>
+
+        <div class="member">
+          <div class="avatar">JA</div>
+          <h3>Jephter Alamwine</h3>
+          <span class="role-badge">Repo Manager</span>
+          <div class="student-id">ID: 2425400293</div>
+        </div>
+
+        <div class="member">
+          <div class="avatar">AH</div>
+          <h3>Abdul Hassan Basit</h3>
+          <span class="role-badge">Design &amp; Content</span>
+          <div class="student-id">ID: 2425402315</div>
+        </div>
+
+        <div class="member">
+          <div class="avatar">KA</div>
+          <h3>Kwabena Adomako Boadu</h3>
+          <span class="role-badge">Design &amp; Content</span>
+          <div class="student-id">ID: 2425402087</div>
+        </div>
+
       </div>
     </div>
-  </div>
-</section>
-<section>
-  <div class="container">
-    <div class="section-label">What We Learned</div>
-    <h2>Skills From This Lab</h2>
-    <div class="cards">
-      <div class="card"><div class="card-icon">🗂️</div><h3>Version Control</h3><p>Git &amp; GitHub for shared code management.</p></div>
-      <div class="card"><div class="card-icon">💻</div><h3>HTML &amp; CSS</h3><p>Building structured, styled multi-page websites.</p></div>
-      <div class="card"><div class="card-icon">📦</div><h3>Virtualization</h3><p>Installing &amp; configuring Oracle VirtualBox.</p></div>
-      <div class="card"><div class="card-icon">🚀</div><h3>Deployment</h3><p>Publishing a live site via GitHub Pages.</p></div>
+  </section>
+
+  <!-- ROLES TABLE -->
+  <section>
+    <div class="container">
+      <div class="lbl">Roles &amp; Responsibilities</div>
+      <h2>Who Did What</h2>
+      <p>Each member had a defined role to ensure smooth collaboration and fair contribution.</p>
+
+      <table class="roles-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Student ID</th>
+            <th>Role</th>
+            <th>Responsibilities</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Samuel Baleh Tetteh Accam</strong></td>
+            <td>2425404587</td>
+            <td>Group Leader</td>
+            <td>Coordinates team, oversees tasks, ensures deadlines are met</td>
+          </tr>
+          <tr>
+            <td><strong>Jephter Alamwine</strong></td>
+            <td>2425400293</td>
+            <td>Repository Manager</td>
+            <td>Creates and manages GitHub repo, adds collaborators, handles merges</td>
+          </tr>
+          <tr>
+            <td><strong>Abdul Hassan Basit</strong></td>
+            <td>2425402315</td>
+            <td>Design &amp; Content</td>
+            <td>CSS styling, layout design, and written content for pages</td>
+          </tr>
+          <tr>
+            <td><strong>Kwabena Adomako Boadu</strong></td>
+            <td>2425402087</td>
+            <td>Design &amp; Content</td>
+            <td>HTML structure, images, JavaScript, and page content</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-  </div>
-</section>
-<footer>
-  <p>© 2026 Group 16 · Cloud Computing Practical Lab 1 · <a href="https://github.com" target="_blank">GitHub Repository</a></p>
-</footer>
+  </section>
+
+  <!-- SKILLS LEARNED -->
+  <section class="alt">
+    <div class="container">
+      <div class="lbl">What We Learned</div>
+      <h2>Skills From This Lab</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">🗂️</div>
+          <h3>Version Control</h3>
+          <p>Using Git and GitHub to collaborate, track changes, and manage a shared codebase.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">💻</div>
+          <h3>HTML &amp; CSS</h3>
+          <p>Building a structured, styled, multi-page static website from scratch.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📦</div>
+          <h3>Virtualization</h3>
+          <p>Installing and configuring Oracle VM VirtualBox for cloud infrastructure practicals.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🚀</div>
+          <h3>Cloud Hosting</h3>
+          <p>Deploying a live website to GitHub Pages, accessible to anyone on the internet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Group 16 &nbsp;·&nbsp; Cloud Computing Practical Lab 1 &nbsp;·&nbsp;
+      <a href="https://github.com" target="_blank">GitHub Repository</a>
+    </p>
+  </footer>
+
 </body>
 </html>
